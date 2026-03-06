@@ -64,3 +64,24 @@ Fail
 
 **Linked Defect:**  
 Issue #1 – Checkout allows non-numeric ZIP code
+
+## TC-SORT-001 – Verify sorting by price (low to high)
+
+**Preconditions:**  
+User logged in as standard_user
+
+**Steps:**
+1. Open inventory page
+2. Select "Price (low to high)" in sorting dropdown
+3. Observe product prices
+4. Refresh page
+5. Observe product prices
+
+**Expected Result:**  
+Products sorted in ascending price order.
+
+**Actual Result:**  
+Products appear correctly sorted until refreshed.
+
+**Status:**  
+Fail
