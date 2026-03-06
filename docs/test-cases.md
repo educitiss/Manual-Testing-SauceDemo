@@ -39,6 +39,26 @@ Error message displayed:
 **Status:**  
 Pass
 
+## TC-LOG-003 – Login with empty username
+
+**Preconditions:**  
+User is on login page
+
+**Steps:**
+1. Leave username field empty
+2. Enter password: secret_sauce
+3. Click Login
+
+**Expected Result:**  
+Error message should be displayed indicating that username is required.
+
+**Actual Result:**  
+Error message displayed:  
+"Epic sadface: Username is required"
+
+**Status:**  
+Pass
+
 ## TC-LOG-006 – Username with trailing spaces
 
 **Preconditions:**  
