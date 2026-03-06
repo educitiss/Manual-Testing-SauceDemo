@@ -59,6 +59,26 @@ Error message displayed:
 **Status:**  
 Pass
 
+## TC-LOG-004 – Login with empty password
+
+**Preconditions:**  
+User is on login page
+
+**Steps:**
+1. Enter username: standard_user
+2. Leave password field empty
+3. Click Login
+
+**Expected Result:**  
+Error message should be displayed indicating that password is required.
+
+**Actual Result:**  
+Error message displayed:  
+"Epic sadface: Password is required"
+
+**Status:**  
+Pass
+
 ## TC-LOG-006 – Username with trailing spaces
 
 **Preconditions:**  
