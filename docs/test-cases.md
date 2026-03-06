@@ -140,6 +140,24 @@ Inventory page loaded successfully and products were displayed.
 **Status:**  
 Pass
 
+## TC-INV-002 – Add item to cart from inventory
+
+**Preconditions:**  
+User is logged in and on inventory page.
+
+**Steps:**
+1. Locate any product on the inventory page.
+2. Click "Add to cart".
+
+**Expected Result:**  
+Item should be added to cart and cart badge should increase.
+
+**Actual Result:**  
+Item was added successfully and cart badge displayed "1".
+
+**Status:**  
+Pass
+
 ## TC-CHK-005 – Invalid ZIP code format
 
 **Preconditions:**  
