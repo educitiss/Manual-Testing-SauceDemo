@@ -19,6 +19,26 @@ Inventory page loaded successfully.
 **Status:**  
 Pass
 
+## TC-LOG-002 – Login with invalid password
+
+**Preconditions:**  
+User is on login page
+
+**Steps:**
+1. Enter username: standard_user
+2. Enter password: wrong_password
+3. Click Login
+
+**Expected Result:**  
+Error message should be displayed indicating invalid credentials.
+
+**Actual Result:**  
+Error message displayed:  
+"Epic sadface: Username and password do not match any user in this service"
+
+**Status:**  
+Pass
+
 ## TC-LOG-006 – Username with trailing spaces
 
 **Preconditions:**  
