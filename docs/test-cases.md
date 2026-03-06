@@ -121,6 +121,25 @@ Fail
 **Linked Defect:**  
 Issue #2 – Login does not handle username with trailing spaces correctly
 
+## TC-INV-001 – Inventory page loads after login
+
+**Preconditions:**  
+User is on login page
+
+**Steps:**
+1. Enter username: standard_user
+2. Enter password: secret_sauce
+3. Click Login
+
+**Expected Result:**  
+User is redirected to inventory page and product list is displayed.
+
+**Actual Result:**  
+Inventory page loaded successfully and products were displayed.
+
+**Status:**  
+Pass
+
 ## TC-CHK-005 – Invalid ZIP code format
 
 **Preconditions:**  
